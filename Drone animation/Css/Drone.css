@@ -1,0 +1,30 @@
+div{
+  position: fixed;
+  animation-name: drone;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drone{
+  0% {
+    left: 0px;
+    transform:rotate(0deg);
+  }
+  25% {
+    left: 0px;
+    transform: rotate(10deg);
+  }
+  30% {
+    left: 10px;
+    transform: rotate(0deg);
+  }
+  60%{
+    left: 0;
+    transform: rotate(-10deg);
+
+  }
+  100% {
+    left: 10px;
+    transform:rotate(0);
+  }
+}

@@ -1,0 +1,171 @@
+body {
+	margin-left: 140px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*-----estilo-cabecera-----*/
+
+#main-header {
+	background: #2BDEEF;
+	color: white;
+	height: 80px;
+	width: 100%; /* la cabecera ocupa el ancho completo de la página */
+	left: 0; /* posicionar la cabecera al lado izquierdo */
+	top: 0; /* posicionar la cabecera pegada arriba */
+	position: fixed; /* cabecera posición fija */
+}
+	#main-header a {
+		color: white;
+	}
+
+/*-------Logo------*/
+#logo-header {
+	float: left;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #ffffff;
+	}
+
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 30px;
+		color: #000000;
+	}
+
+	/*-----Navbar-----*/
+	nav {
+		float: right;
+	}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			padding-right: 20px;
+		}
+
+			nav ul li {
+				display: inline-block;
+				line-height: 80px;
+			}
+
+				nav ul li a {
+					display: block;
+					padding: 0 10px;
+					text-decoration: none;
+				}
+
+					nav ul li a:hover {
+						background: #0b76a6;
+					}
+
+/*----Navegador-lateral----*/
+.menu ul{
+	background-color:#2BDEEF;
+	left: 0;
+  margin-top: 72px;
+	height: 100%;
+  list-style: none;
+  width: 100px;
+	position: fixed;
+	list-style-type: none;
+}
+
+.menu li {
+  margin-bottom: 1px;
+}
+
+.menu li a {
+
+	color: white;
+  display: block;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  background: 5px center no-repeat;
+
+}
+
+.menu li a:hover {
+  background-color: #0b76a6;
+}
+
+/*----contenido----*/
+#page{
+	float: left;
+}
+
+#main-content {
+	float: left;
+	margin-left: 20%;
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+#foods{
+	text-align: center;
+}
+#foods .FTE ul{
+	list-style-type: none;
+	float: left;
+	width: 500px;
+	margin:10px;
+}
+#foods .FTA ul{
+	list-style-type: none;
+	float: left;
+	width: 500px;
+	margin:10px;
+}
+
+#rawfood{
+	margin-top: 68px;
+	padding: 10px;
+	margin: 10px;
+	height: 100%;
+}
+#rawfood div{
+	float: left;
+	background-color: #2BDEEF;
+	text-align: center;
+	color:#ffffff;
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	margin: 10px;
+}
+
+/*----images----*/
+#imgcntr{
+text-align: center;
+}
+#imgdwn{
+	text-align: center;
+}
+
+/*----estilo-footer----*/
+
+#footer {
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #D8D8D8;
+	color: black;
+	text-align: right;
+}
+/*.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}*/
+#footer a {
+		color: black;
+	}
